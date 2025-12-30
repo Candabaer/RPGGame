@@ -1,0 +1,31 @@
+﻿{
+    "Weapons": [
+        {
+            "Name": "Iron Sword",
+            "Description": "A sturdy iron sword.",
+            "DROPABBLE": true,
+            "ItemSlotType": "Right_Arm",
+            "DamageValue": 25,
+            "AttackSpeed": 1.2,
+            "Modifier": []
+        },
+        {
+            "Name": "Steel Axe",
+            "Description": "A heavy steel axe, deals massive damage.",
+            "DROPABBLE": true,
+            "ItemSlotType": "Two_Handed",
+            "DamageValue": 40,
+            "AttackSpeed": 0.9,
+            "Modifier": []
+        },
+        {
+            "Name": "Dagger",
+            "Description": "A small, fast dagger.",
+            "DROPABBLE": true,
+            "ItemSlotType": "Left_Arm",
+            "DamageValue": 15,
+            "AttackSpeed": 2.0,
+            "Modifier": []
+        }
+    ]
+}
