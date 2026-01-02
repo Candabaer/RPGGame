@@ -1,13 +1,16 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
-public abstract class Creature
+public abstract class Creature : ScriptableObject
 {
 	public int LifePoints;
 	public int MaxLifePoints;
 	public Dictionary<ItemSlotTypes, Item> Equipment;
 	public List<Item> Inventory;
 	public string Name;
+	public event Action OnDeath;
+
 
 	protected Creature(string name, int maxLifePoints, int lifePoints,
 		Dictionary<ItemSlotTypes, Item> equipment, List<Item> inventory)
@@ -19,7 +22,6 @@ public abstract class Creature
 		Inventory = inventory;
 	}
 
-	public event Action OnDeath;
 
 	public void ApplyDamage(int damage)
 	{

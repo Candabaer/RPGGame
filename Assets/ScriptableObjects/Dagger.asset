@@ -16,6 +16,7 @@ MonoBehaviour:
   Description: 
   DROPABBLE: 1
   ItemSlotType: 2
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300000, guid: 035edbff759f0ce44ada3b6361039439, type: 3}
   DamageValue: 35
+  AttackRange: 1
   AttackSpeed: 0.5

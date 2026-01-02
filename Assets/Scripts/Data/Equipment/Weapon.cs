@@ -7,6 +7,7 @@ public class Weapon : Item
 {
 	[Header("Weapon Stats")]
 	public int DamageValue;
+	public float AttackRange;
 	public float AttackSpeed;
 	public List<WeaponModifier> Modifier;
 }

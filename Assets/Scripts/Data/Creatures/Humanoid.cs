@@ -1,4 +1,7 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "Creatures/Humanoids")]
 
 public class Humanoid : Creature
 {
